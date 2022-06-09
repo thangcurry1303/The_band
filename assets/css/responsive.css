@@ -5,7 +5,7 @@
 
 /* Tablet  and Mobile */
 
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .place-buy-btn {
         padding: 14px 16px;
     }
@@ -14,16 +14,21 @@
         padding: 5px 12px;
     }
 
-    .contact-form .form-control {
-        padding: 15px;
-    }
-
     .socials-list {
         font-size: 48px;
+    }
+    
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
     }
 
     .contact-info {
         line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
     }
 
     #footer .socials-list a {
@@ -38,12 +43,12 @@
 }
 
 /* Tablet */
-@media (max-width: 1023px) and (min-width: 740px){
+@media (max-width: 63.9375em) and (min-width: 46.25em){
     
 }
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     .s-full-width, 
     .s-col-full {
